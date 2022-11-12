@@ -1,6 +1,6 @@
-import { createGlobalStyle, creteGlobalStyle } from "styled-components"
+import { createGlobalStyle } from "styled-components"
 
-const GlobalStyle = createGlobalStyle `
+const GlobalStyle = createGlobalStyle`
   * {
     padding: 0;
     margin: 0;
@@ -8,6 +8,13 @@ const GlobalStyle = createGlobalStyle `
 
   body {
     font-family: 'Roboto', sans-serif;
+    color: #3a3a3a;
+  }
+
+  a {
+    color: #8933cd;
+    font-weight: bold;
+    text-decoration: none;
   }
   `
 
